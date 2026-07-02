@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DO Digitals — Design & Digital Growth</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">DO Digitals</a>
+            <nav class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1 class="hero-title fade-in">DO Digitals — <span class="gradient-text">Design & Digital Growth</span></h1>
+            <p class="hero-tagline fade-in">We craft stunning digital experiences and engineer marketing campaigns that drive real results. Let's scale your brand together.</p>
+            <div class="hero-ctas fade-in">
+                <a href="#services" class="btn btn-primary">View Services</a>
+                <a href="#contact" class="btn btn-outline">Get a Free Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Our <span class="gradient-text">Services</span></h2>
+            <p class="section-subtitle fade-in">Comprehensive digital solutions tailored to elevate your brand.</p>
+            
+            <div class="services-grid">
+                <!-- Graphic Designing -->
+                <div class="card service-card fade-in">
+                    <div class="icon-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="2.5"></circle><circle cx="17.5" cy="10.5" r="2.5"></circle><circle cx="8.5" cy="7.5" r="2.5"></circle><circle cx="6.5" cy="12.5" r="2.5"></circle><path d="M12 2a10 10 0 0 0 0 20 2.5 2.5 0 0 0 2.5-2.5c0-.66-.26-1.26-.68-1.7-.42-.44-.68-1.04-.68-1.7a2.5 2.5 0 0 1 2.5-2.5H15a5 5 0 0 0 5-5 8 8 0 0 0-8-8z"></path></svg>
+                    </div>
+                    <h3>Graphic Designing</h3>
+                    <p>Eye-catching visuals that give your brand a memorable identity.</p>
+                </div>
+                
+                <!-- Digital Marketing -->
+                <div class="card service-card fade-in">
+                    <div class="icon-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l18-5v12L3 14v-3z"></path><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"></path></svg>
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p>Data-driven campaigns to maximize your ROI and audience reach.</p>
+                </div>
+
+                <!-- Web Designing -->
+                <div class="card service-card fade-in">
+                    <div class="icon-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                    </div>
+                    <h3>Web Designing</h3>
+                    <p>Beautiful, user-centric interfaces that convert visitors into customers.</p>
+                </div>
+
+                <!-- Web Development -->
+                <div class="card service-card fade-in">
+                    <div class="icon-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Robust, scalable, and lightning-fast websites built to perform.</p>
+                </div>
+
+                <!-- Social Media Management -->
+                <div class="card service-card fade-in">
+                    <div class="icon-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
+                    </div>
+                    <h3>Social Media Management</h3>
+                    <p>Consistent, engaging content that builds a loyal community around your brand.</p>
+                </div>
+
+                <!-- Social Media Marketing -->
+                <div class="card service-card fade-in">
+                    <div class="icon-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path><line x1="8" y1="9" x2="16" y2="9"></line><line x1="8" y1="13" x2="12" y2="13"></line></svg>
+                    </div>
+                    <h3>Social Media Marketing</h3>
+                    <p>Targeted ad campaigns that put your brand in front of the right audience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title fade-in">Our <span class="gradient-text">Portfolio</span></h2>
+            <p class="section-subtitle fade-in">A glimpse of the digital experiences we've crafted.</p>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item fade-in">
+                    <div class="portfolio-overlay">
+                        <h4>E-Commerce Platform</h4>
+                        <span>Web Development</span>
+                    </div>
+                </div>
+                <div class="portfolio-item fade-in">
+                    <div class="portfolio-overlay">
+                        <h4>Brand Identity Revamp</h4>
+                        <span>Graphic Designing</span>
+                    </div>
+                </div>
+                <div class="portfolio-item fade-in">
+                    <div class="portfolio-overlay">
+                        <h4>SEO Campaign 2023</h4>
+                        <span>Digital Marketing</span>
+                    </div>
+                </div>
+                <div class="portfolio-item fade-in">
+                    <div class="portfolio-overlay">
+                        <h4>SaaS Landing Page</h4>
+                        <span>Web Designing</span>
+                    </div>
+                </div>
+                <div class="portfolio-item fade-in">
+                    <div class="portfolio-overlay">
+                        <h4>Instagram Growth</h4>
+                        <span>Social Media Marketing</span>
+                    </div>
+                </div>
+                <div class="portfolio-item fade-in">
+                    <div class="portfolio-overlay">
+                        <h4>Content Calendar Setup</h4>
+                        <span>Social Media Management</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Affordable <span class="gradient-text">Pricing</span></h2>
+            <p class="section-subtitle fade-in">Flexible plans designed to fit your business needs.</p>
+            
+            <div class="pricing-grid">
+                <div class="card pricing-card fade-in">
+                    <h3>Basic</h3>
+                    <div class="price"><span>$</span>499<span>/mo</span></div>
+                    <ul class="features">
+                        <li>1 Social Media Platform</li>
+                        <li>Basic Graphic Design</li>
+                        <li>Landing Page Design</li>
+                        <li>Email Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline btn-block">Contact Us</a>
+                </div>
+                
+                <div class="card pricing-card pricing-card-featured fade-in">
+                    <div class="badge">Most Popular</div>
+                    <h3>Standard</h3>
+                    <div class="price"><span>$</span>999<span>/mo</span></div>
+                    <ul class="features">
+                        <li>3 Social Media Platforms</li>
+                        <li>Advanced Digital Marketing</li>
+                        <li>Full Website Development</li>
+                        <li>Weekly Analytics Reports</li>
+                        <li>Priority Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary btn-block">Contact Us</a>
+                </div>
+
+                <div class="card pricing-card fade-in">
+                    <h3>Premium</h3>
+                    <div class="price"><span>$</span>1999<span>/mo</span></div>
+                    <ul class="features">
+                        <li>All Social Media Platforms</li>
+                        <li>Complete Brand Identity</li>
+                        <li>Custom Web App Development</li>
+                        <li>Dedicated Account Manager</li>
+                        <li>24/7 Premium Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline btn-block">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title fade-in">What <span class="gradient-text">Clients Say</span></h2>
+            <p class="section-subtitle fade-in">Trusted by businesses worldwide to deliver outstanding results.</p>
+            
+            <div class="testimonials-grid">
+                <div class="card testimonial-card fade-in">
+                    <p>"DO Digitals completely transformed our online presence. Our website traffic doubled within three months!"</p>
+                    <div class="client-info">
+                        <strong>Jane Doe</strong>
+                        <span>CEO, TechSphere</span>
+                    </div>
+                </div>
+                <div class="card testimonial-card fade-in">
+                    <p>"Their social media team knows exactly what they're doing. Our engagement has never been higher."</p>
+                    <div class="client-info">
+                        <strong>John Smith</strong>
+                        <span>Founder, UrbanThreads</span>
+                    </div>
+                </div>
+                <div class="card testimonial-card fade-in">
+                    <p>"Professional, creative, and reliable. They built our e-commerce site from scratch flawlessly."</p>
+                    <div class="client-info">
+                        <strong>Emily White</strong>
+                        <span>Director, GreenLeaf</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container contact-container">
+            <div class="contact-info fade-in">
+                <h2 class="section-title text-left">Get In <span class="gradient-text">Touch</span></h2>
+                <p class="section-subtitle text-left">Ready to grow your business? Drop us a line!</p>
+                <ul class="contact-details">
+                    <li><strong>Email:</strong> info@dodigitals.com</li>
+                    <li><strong>Phone:</strong> +1 (555) 123-4567</li>
+                </ul>
+            </div>
+            
+            <div class="contact-form-wrapper fade-in">
+                <form id="contactForm" novalidate>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <span class="error-message" id="nameError"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Phone (Optional)">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        <span class="error-message" id="messageError"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    <div id="formSuccess" class="success-message">Thank you! Your message has been sent successfully.</div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2023 DO Digitals. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook">FB</a>
+                <a href="#" aria-label="Twitter">TW</a>
+                <a href="#" aria-label="LinkedIn">LI</a>
+                <a href="#" aria-label="Instagram">IG</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" aria-label="Back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
